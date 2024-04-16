@@ -29,7 +29,7 @@ const Role = db.role;
 // Use async/await here
 (async () => {
   try {
-    await db.mongoose.connect("mongodb+srv://serverAol:xqepEDi6K9xjB61X@aol.ttbhmkw.mongodb.net/AOL-db);
+    await db.mongoose.connect("mongodb+srv://serverAol:xqepEDi6K9xjB61X@aol.ttbhmkw.mongodb.net/);
     console.log("Successfully connect to Database.");
     initial();
   } catch (err) {
